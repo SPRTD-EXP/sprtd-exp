@@ -1,0 +1,20 @@
+export const colors = {
+  background: '#3f3b31',
+  card: '#2E2B23',
+  accent: '#ffe285',
+  accentMuted: '#a79e76',
+  textPrimary: '#F0F0EB',
+  textSecondary: '#8C8C87',
+  border: '#4a4740',
+  success: '#4CAF50',
+  error: '#C0392B',
+  niches: {
+    football: '#2E4A1E',
+    soccer: '#1A3A2A',
+    gym: '#3A1A1A',
+    barber: '#1A1A3A',
+    cars: '#3A2A1A',
+    modeling: '#2A1A3A',
+    photography: '#1A2A3A',
+  },
+} as const;
